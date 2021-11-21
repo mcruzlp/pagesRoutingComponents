@@ -5,6 +5,9 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { MalagaDescriptionComponent } from '../components/malaga-description/malaga-description.component';
+import { MalagaImageComponent } from '../components/malaga-image/malaga-image.component';
+import { MalagaInformationComponent } from '../components/malaga-information/malaga-information.component';
 
 
 @NgModule({
@@ -14,6 +17,6 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, MalagaDescriptionComponent, MalagaImageComponent, MalagaInformationComponent]
 })
 export class HomePageModule {}
