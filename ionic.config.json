@@ -1,0 +1,7 @@
+{
+  "name": "pagesRoutingComponents",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
